@@ -43,7 +43,7 @@ import java.util.jar.Attributes;
 import java.util.jar.JarFile;
 import java.util.jar.Manifest;
 
-import com.sun.nio.zipfs.ZipFileSystemProvider;
+import com.sun.nio.zipfs.JarFileSystemProvider;
 import com.sun.tools.javac.util.Context;
 import java.nio.file.Paths;
 
@@ -155,7 +155,7 @@ public class FSInfo {
         if (jarFSProvider != null) {
             return jarFSProvider;
         } else {
-            jarFSProvider = new ZipFileSystemProvider();
+            jarFSProvider = new JarFileSystemProvider();
             return jarFSProvider;
         }
 //        for (FileSystemProvider provider: FileSystemProvider.installedProviders()) {
