@@ -1,6 +1,8 @@
 # About nb-javac-android!
 "nb-javac-android" is a patched version of Oracle "nb-javac, i.e., the Java compiler. This has long been part of NetBeans, providing a highly tuned Java compiler specifically for the Java editor i.e., parsing and lexing for features such as syntax coloring, code completion
 
+edit: deprecated, use https://github.com/Itsaky/nb-javac-android instead
+
 This project was modified to work on an android system, given that the device is API 26+
 
 The built jar binaries can be found in the releases section of this repository.
